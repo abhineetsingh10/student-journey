@@ -33,9 +33,12 @@ html, body {
 }
 
 h3 {
-  margin: 0 0 12px 0;
-  font-weight: 600;
-  font-size: 18px;
+  margin: 0 0 16px 0;
+  font-weight: 700;
+  font-size: 28px;              /* Bigger */
+  text-align: center;           /* Centered */
+  letter-spacing: 0.5px;        /* Slight polish */
+  color: #111827;               /* Stronger contrast */
 }
 
 .controls {
@@ -72,9 +75,8 @@ button:hover {
 }
 
 svg {
-  flex: 1; /* 🔥 makes svg fill remaining space */
   width: 100%;
-  height: 100%;
+  height: 75vh;  /* 🔥 controlled height */
 }
 
 .axis path,

@@ -1,5 +1,5 @@
 const svg = d3.select("#chart");
-const margin = { top: 30, right: 30, bottom: 50, left: 60 };
+const margin = { top: 30, right: 30, bottom: 80, left: 60 };
 
 let g, x, y, xAxisGroup, yAxisGroup, yGrid;
 let currentPen = null;
